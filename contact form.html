@@ -1,0 +1,49 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=f, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Contact me</h3>
+     <form action="processform.php" method="POST">
+        <p>
+            <label for="FIRST NAME">FIRST NAME</label><br>
+            <input type="text" name="FIRST NAME" placeholder="Enter your first name"> 
+        </p>
+        <p>
+            <label for="LAST NAME">LAST NAME</label><br>
+            <input type="text" name="LAST NAME" placeholder="Enter your last name">
+       </p>
+            <label for="email"> EMAIL</label><br>
+            <input type="text" name="email" placeholder="example@gmail.com">
+       </p>
+       <p>
+           <label for="Gender">Gender</label><br>
+           <input type="radio" name="Gender" id="" value="Female">Female
+           <input type="radio" name="Gender" id="" value="Male">Male
+       </p>
+       <p>
+           <label for="Department">DEPARTMENT</label><br>
+           <select name="Department" id="">
+               <option value="none">Select Department</option>
+               <option value="Human Resource">Human Resource</option>
+               <option value="Marketing">Marketing</option>
+               <option value="Underwriting">Underwriting</option>
+               <option value="Risk">Risk</option>
+           </select>
+       </p>
+       <p><label for="contact">Your message</label><br>
+         <textarea name="message" id="" cols="20" rows="5">Your message</textarea><br>
+         
+      </p>
+      <p>
+          <input type="checkbox" name="T&C" id="">By checking this box you agree to our terms and conditions
+      </p>
+      <input type="submit" value="SEND">
+
+
+    </form>
+</body>
+</html>
